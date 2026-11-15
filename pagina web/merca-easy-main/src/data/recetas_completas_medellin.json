@@ -1,0 +1,367 @@
+{
+  "proyecto": "Comparador de precios de supermercados - Recetas de impulso con paso a paso",
+  "version": "4.0",
+  "ciudad": "Medellín, Colombia",
+  "total_recetas": 12,
+  "recetas": [
+    {
+      "id_receta": "REC001",
+      "nombre": "Arroz con Pollo Criollo y Verduras",
+      "tiempo_comida": "Almuerzo o Cena",
+      "categoria_base": [
+        "Granos y cereales",
+        "Carnes, pollo y pescados",
+        "Verduras y hortalizas"
+      ],
+      "ingredientes_principales": [
+        {"id_producto": "PROD001", "nombre": "Arroz blanco", "presentacion": "Bolsa de 1 kg"},
+        {"id_producto": "PROD023", "nombre": "Pechuga de pollo", "presentacion": "Bandeja de 1 kg"},
+        {"id_producto": "PROD050", "nombre": "Zanahoria", "presentacion": "Bolsa de 1 kg"},
+        {"id_producto": "PROD048", "nombre": "Cebolla cabezona blanca", "presentacion": "Bolsa de 1 kg"},
+        {"id_producto": "PROD047", "nombre": "Tomate chonto", "presentacion": "A granel, 1 kg"}
+      ],
+      "ingrediente_gancho": {
+        "id_producto": "PROD022",
+        "nombre": "Crema de leche",
+        "presentacion": "Caja de 200 mL",
+        "razon": "Aporta una textura cremosa ideal para realzar el sabor del pollo al estilo antioqueño."
+      },
+      "preparacion": [
+        "Cocinar la pechuga de pollo en agua con sal y desmecharla.",
+        "Picar finamente la cebolla, el tomate y rallar la zanahoria.",
+        "En un sartén grande, hacer un sofrito con la cebolla, el tomate y la zanahoria.",
+        "Agregar el arroz crudo al sofrito y revolver por unos minutos.",
+        "Incorporar el agua (o caldo de pollo reservado) y cocinar a fuego medio hasta que seque.",
+        "Añadir el pollo desmechado y, si deseas el toque cremoso, un chorrito de crema de leche antes de tapar y dejar terminar la cocción a fuego bajo."
+      ]
+    },
+    {
+      "id_receta": "REC002",
+      "nombre": "Lentejas Guisadas con Papa y Costilla de Cerdo",
+      "tiempo_comida": "Almuerzo",
+      "categoria_base": [
+        "Granos y cereales",
+        "Verduras y hortalizas",
+        "Carnes, pollo y pescados"
+      ],
+      "ingredientes_principales": [
+        {"id_producto": "PROD005", "nombre": "Lenteja", "presentacion": "Bolsa de 500 g"},
+        {"id_producto": "PROD045", "nombre": "Papa pastusa", "presentacion": "Bolsa de 1 kg"},
+        {"id_producto": "PROD028", "nombre": "Costilla de cerdo", "presentacion": "Bolsa de 500 g"},
+        {"id_producto": "PROD050", "nombre": "Zanahoria", "presentacion": "Bolsa de 1 kg"},
+        {"id_producto": "PROD048", "nombre": "Cebolla cabezona blanca", "presentacion": "Bolsa de 1 kg"}
+      ],
+      "ingrediente_gancho": {
+        "id_producto": "PROD040",
+        "nombre": "Aguacate papelillo",
+        "presentacion": "A granel, 1 kg",
+        "razon": "El acompañamiento clásico de un buen almuerzo casero completo en Medellín."
+      },
+      "preparacion": [
+        "En una olla a presión, sofreír las costillas de cerdo con la cebolla picada hasta que doren.",
+        "Agregar las lentejas (previamente lavadas), la zanahoria en cubos y agua suficiente.",
+        "Tapar la olla y cocinar por 20 minutos a presión.",
+        "Destapar, incorporar la papa pastusa cortada en trozos medianos y dejar cocinar a fuego medio sin presión hasta que la papa ablande y el guiso espese.",
+        "Servir caliente acompañado de rodajas frescas de aguacate papelillo."
+      ]
+    },
+    {
+      "id_receta": "REC003",
+      "nombre": "Sopa de Pasta Corta con Pollo y Verduras",
+      "tiempo_comida": "Almuerzo o Cena",
+      "categoria_base": [
+        "Granos y cereales",
+        "Carnes, pollo y pescados",
+        "Verduras y hortalizas"
+      ],
+      "ingredientes_principales": [
+        {"id_producto": "PROD010", "nombre": "Pasta corta", "presentacion": "Paquete de 500 g"},
+        {"id_producto": "PROD024", "nombre": "Muslo de pollo", "presentacion": "Bolsa de 1 kg"},
+        {"id_producto": "PROD045", "nombre": "Papa pastusa", "presentacion": "Bolsa de 1 kg"},
+        {"id_producto": "PROD050", "nombre": "Zanahoria", "presentacion": "Bolsa de 1 kg"},
+        {"id_producto": "PROD049", "nombre": "Cebolla larga", "presentacion": "Manojo de 500 g"}
+      ],
+      "ingrediente_gancho": {
+        "id_producto": "PROD055",
+        "nombre": "Yuca",
+        "presentacion": "Bolsa de 1 kg",
+        "razon": "Agrega cuerpo tradicional a la sopa para reconfortar en los días de lluvia de la ciudad."
+      },
+      "preparacion": [
+        "En una olla grande, poner a hervir agua con sal, la cebolla larga entera y el muslo de pollo.",
+        "Cuando el pollo esté cocido, retirarlo, desmecharlo y reservar el caldo.",
+        "En el mismo caldo, agregar la zanahoria en rodajas, la papa pastusa en trozos y (opcional) trozos de yuca para darle más cuerpo.",
+        "Cuando las verduras estén al dente, incorporar la pasta corta y dejar cocinar hasta que esté blanda.",
+        "Devolver el pollo desmechado, rectificar sal y servir caliente."
+      ]
+    },
+    {
+      "id_receta": "REC004",
+      "nombre": "Arroz Atollado Rápido con Cerdo y Tomate",
+      "tiempo_comida": "Almuerzo",
+      "categoria_base": [
+        "Granos y cereales",
+        "Carnes, pollo y pescados",
+        "Verduras y hortalizas"
+      ],
+      "ingredientes_principales": [
+        {"id_producto": "PROD001", "nombre": "Arroz blanco", "presentacion": "Bolsa de 1 kg"},
+        {"id_producto": "PROD027", "nombre": "Lomo de cerdo", "presentacion": "Bolsa de 500 g"},
+        {"id_producto": "PROD048", "nombre": "Cebolla cabezona blanca", "presentacion": "Bolsa de 1 kg"},
+        {"id_producto": "PROD047", "nombre": "Tomate chonto", "presentacion": "A granel, 1 kg"},
+        {"id_producto": "PROD050", "nombre": "Zanahoria", "presentacion": "Bolsa de 1 kg"}
+      ],
+      "ingrediente_gancho": {
+        "id_producto": "PROD065",
+        "nombre": "Salsa de tomate",
+        "presentacion": "Doypack de 400 g",
+        "razon": "Intensifica el color y el sabor del sofrito base."
+      },
+      "preparacion": [
+        "Cortar el lomo de cerdo en cubos pequeños y sofreírlos en una olla hasta que doren.",
+        "Añadir la cebolla y el tomate picados junto con la zanahoria rallada para formar un buen guiso.",
+        "Agregar una cucharada de salsa de tomate para intensificar el color y el sabor.",
+        "Incorporar el arroz y mezclar bien con el hogao de cerdo.",
+        "Agregar agua, tapar y cocinar a fuego medio-bajo hasta que el arroz esté en su punto."
+      ]
+    },
+    {
+      "id_receta": "REC005",
+      "nombre": "Crema de Avena y Frutas Energética",
+      "tiempo_comida": "Desayuno",
+      "categoria_base": [
+        "Granos y cereales",
+        "Lácteos y derivados",
+        "Frutas"
+      ],
+      "ingredientes_principales": [
+        {"id_producto": "PROD007", "nombre": "Avena en hojuelas", "presentacion": "Bolsa de 500 g"},
+        {"id_producto": "PROD012", "nombre": "Leche entera", "presentacion": "Caja de 1 L"},
+        {"id_producto": "PROD034", "nombre": "Banano", "presentacion": "A granel, 1 kg"},
+        {"id_producto": "PROD035", "nombre": "Manzana roja", "presentacion": "Bandeja de 1 kg"},
+        {"id_producto": "PROD058", "nombre": "Azúcar blanca", "presentacion": "Bolsa de 1 kg"}
+      ],
+      "ingrediente_gancho": {
+        "id_producto": "PROD042",
+        "nombre": "Fresa",
+        "presentacion": "Bolsa de 500 g",
+        "razon": "Aporta un toque fresco y un contraste ácido delicioso para empezar la mañana."
+      },
+      "preparacion": [
+        "En una olla pequeña, calentar la leche entera con el azúcar al gusto.",
+        "Licuar la mitad de la avena en hojuelas con un poco de leche para que quede más fina o dejarla entera según la preferencia.",
+        "Agregar la avena a la leche caliente y cocinar a fuego bajo sin dejar de remover durante 5 a 7 minutos hasta que espese.",
+        "Servir caliente en un tazón y decorar por encima con rodajas de banano, cubitos de manzana roja y fresas frescas picadas."
+      ]
+    },
+    {
+      "id_receta": "REC006",
+      "nombre": "Tortilla Rellena de Queso Campesino y Tomate",
+      "tiempo_comida": "Desayuno o Cena",
+      "categoria_base": [
+        "Lácteos y derivados",
+        "Verduras y hortalizas",
+        "Panadería y repostería"
+      ],
+      "ingredientes_principales": [
+        {"id_producto": "PROD017", "nombre": "Queso campesino", "presentacion": "Paquete de 500 g"},
+        {"id_producto": "PROD047", "nombre": "Tomate chonto", "presentacion": "A granel, 1 kg"},
+        {"id_producto": "PROD048", "nombre": "Cebolla cabezona blanca", "presentacion": "Bolsa de 1 kg"},
+        {"id_producto": "PROD021", "nombre": "Margarina", "presentacion": "Envase de 500 g"},
+        {"id_producto": "PROD069", "nombre": "Arepas blancas", "presentacion": "Paquete de 5 unidades (500 g)"}
+      ],
+      "ingrediente_gancho": {
+        "id_producto": "PROD019",
+        "nombre": "Queso mozzarella",
+        "presentacion": "Paquete de 250 g",
+        "razon": "Mejora el derretido y la textura para acompañar la tradicional arepa paisa."
+      },
+      "preparacion": [
+        "Asar las arepas blancas en un sartén con un poco de margarina hasta que estén doradas por ambos lados.",
+        "Abrir las arepas por la mitad con cuidado.",
+        "Picar finamente el tomate y la cebolla, y desmoronar el queso campesino (añadiendo un poco de queso mozzarella para mejorar el derretido).",
+        "Rellenar la arepa con la mezcla y llevarla nuevamente al sartén a fuego bajo hasta que el queso se derrita por completo."
+      ]
+    },
+    {
+      "id_receta": "REC007",
+      "nombre": "Ensalada Fresca de Pollo, Aguacate y Limón",
+      "tiempo_comida": "Cena",
+      "categoria_base": [
+        "Carnes, pollo y pescados",
+        "Frutas",
+        "Verduras y hortalizas"
+      ],
+      "ingredientes_principales": [
+        {"id_producto": "PROD023", "nombre": "Pechuga de pollo", "presentacion": "Bolsa de 1 kg"},
+        {"id_producto": "PROD040", "nombre": "Aguacate papelillo", "presentacion": "A granel, 1 kg"},
+        {"id_producto": "PROD051", "nombre": "Lechuga crespa", "presentacion": "Unidad"},
+        {"id_producto": "PROD047", "nombre": "Tomate chonto", "presentacion": "A granel, 1 kg"},
+        {"id_producto": "PROD041", "nombre": "Limón Tahití", "presentacion": "A granel, 1 kg"}
+      ],
+      "ingrediente_gancho": {
+        "id_producto": "PROD064",
+        "nombre": "Mayonesa",
+        "presentacion": "Frasco de 400 g",
+        "razon": "Sirve como base para un aderezo cremoso rápido y ligero en la noche."
+      },
+      "preparacion": [
+        "Cocinar la pechuga de pollo y desmecharla finamente.",
+        "Lavar y desinfectar las hojas de lechuga crespa, luego trocearlas con las manos.",
+        "Cortar el tomate chonto en gajos y el aguacate papelillo en cubos medianos.",
+        "En un tazón grande, mezclar la lechuga, el pollo, el tomate y el aguacate.",
+        "Preparar un aderezo rápido mezclando jugo de limón Tahití con una cucharada de mayonesa y sal, y verter sobre la ensalada justo antes de servir."
+      ]
+    },
+    {
+      "id_receta": "REC008",
+      "nombre": "Albóndigas de Carne con Salsa de Tomate",
+      "tiempo_comida": "Almuerzo o Cena",
+      "categoria_base": [
+        "Carnes, pollo y pescados",
+        "Verduras y hortalizas",
+        "Despensa y productos básicos"
+      ],
+      "ingredientes_principales": [
+        {"id_producto": "PROD025", "nombre": "Carne molida de res", "presentacion": "Bolsa de 500 g"},
+        {"id_producto": "PROD048", "nombre": "Cebolla cabezona blanca", "presentacion": "Bolsa de 1 kg"},
+        {"id_producto": "PROD047", "nombre": "Tomate chonto", "presentacion": "A granel, 1 kg"},
+        {"id_producto": "PROD065", "nombre": "Salsa de tomate", "presentacion": "Doypack de 400 g"},
+        {"id_producto": "PROD001", "nombre": "Arroz blanco", "presentacion": "Bolsa de 1 kg"}
+      ],
+      "ingrediente_gancho": {
+        "id_producto": "PROD019",
+        "nombre": "Queso mozzarella",
+        "presentacion": "Paquete de 250 g",
+        "razon": "Permite gratinar las albóndigas en el sartén al finalizar."
+      },
+      "preparacion": [
+        "En un recipiente, mezclar la carne molida de res con cebolla finamente picada, sal y pimienta. Formar pequeñas esferas (albóndigas).",
+        "Sellarlas en un sartén con un poco de aceite hasta que estén doradas por fuera.",
+        "Licuar o picar el tomate chonto con cebolla para hacer una salsa base, y añadir la salsa de tomate en doypack para espesar.",
+        "Incorporar las albóndigas a la salsa y dejar cocinar a fuego lento por 10 minutos.",
+        "Si compraste el gancho, esparce queso mozzarella por encima en los últimos minutos y tapa el sartén para que gratine. Servir con arroz blanco."
+      ]
+    },
+    {
+      "id_receta": "REC009",
+      "nombre": "Pasta Salteada con Atún y Pimentón",
+      "tiempo_comida": "Almuerzo o Cena",
+      "categoria_base": [
+        "Granos y cereales",
+        "Carnes, pollo y pescados",
+        "Verduras y hortalizas"
+      ],
+      "ingredientes_principales": [
+        {"id_producto": "PROD010", "nombre": "Pasta corta", "presentacion": "Paquete de 500 g"},
+        {"id_producto": "PROD031", "nombre": "Atún en agua", "presentacion": "Lata de 160 g"},
+        {"id_producto": "PROD054", "nombre": "Pimentón rojo", "presentacion": "A granel, 1 kg"},
+        {"id_producto": "PROD048", "nombre": "Cebolla cabezona blanca", "presentacion": "Bolsa de 1 kg"},
+        {"id_producto": "PROD056", "nombre": "Aceite vegetal de girasol", "presentacion": "Botella de 1 L"}
+      ],
+      "ingrediente_gancho": {
+        "id_producto": "PROD022",
+        "nombre": "Crema de leche",
+        "presentacion": "Caja de 200 mL",
+        "razon": "Convierte la pasta en una deliciosa preparación con salsa blanca cremosa."
+      },
+      "preparacion": [
+        "Cocinar la pasta corta en abundante agua hirviendo con sal hasta que esté al dente, luego escurrir.",
+        "En un sartén con aceite vegetal, sofreír la cebolla y el pimentón rojo cortados en julianas finas.",
+        "Agregar el atún en agua desmenuzado al sofrito y saltear por un par de minutos.",
+        "Incorporar la pasta cocida al sartén y mezclar bien.",
+        "Para darle un toque especial, agregar un chorrito de crema de leche, revolver a fuego bajo hasta que tome cremosidad y servir."
+      ]
+    },
+    {
+      "id_receta": "REC010",
+      "nombre": "Pancakes Caseros de Avena y Banano",
+      "tiempo_comida": "Desayuno",
+      "categoria_base": [
+        "Granos y cereales",
+        "Lácteos y derivados",
+        "Frutas",
+        "Panadería y repostería"
+      ],
+      "ingredientes_principales": [
+        {"id_producto": "PROD007", "nombre": "Avena en hojuelas", "presentacion": "Bolsa de 500 g"},
+        {"id_producto": "PROD012", "nombre": "Leche entera", "presentacion": "Caja de 1 L"},
+        {"id_producto": "PROD034", "nombre": "Banano", "presentacion": "A granel, 1 kg"},
+        {"id_producto": "PROD058", "nombre": "Azúcar blanca", "presentacion": "Bolsa de 1 kg"},
+        {"id_producto": "PROD020", "nombre": "Mantequilla", "presentacion": "Barra de 250 g"}
+      ],
+      "ingrediente_gancho": {
+        "id_producto": "PROD042",
+        "nombre": "Fresa",
+        "presentacion": "Bolsa de 500 g",
+        "razon": "Ideal para decorar los pancakes en un desayuno de fin de semana."
+      },
+      "preparacion": [
+        "En la licuadora, procesar la avena en hojuelas hasta convertirla en harina fina.",
+        "Agregar a la licuadora un banano maduro, un chorro de leche entera, una cucharadita de azúcar y licuar hasta obtener una mezcla homogénea.",
+        "Calentar un sartén antiadherente con un poco de mantequilla.",
+        "Verter porciones de la mezcla para formar los pancakes; cocinar hasta que salgan burbujas en la superficie y voltear para dorar el otro lado.",
+        "Servir apilados y decorar con rodajas adicionales de banano y fresas frescas."
+      ]
+    },
+    {
+      "id_receta": "REC011",
+      "nombre": "Fríjoles Cargamanto con Hogao, Arroz y Arepa",
+      "tiempo_comida": "Almuerzo",
+      "categoria_base": [
+        "Granos y cereales",
+        "Verduras y hortalizas",
+        "Panadería y repostería"
+      ],
+      "ingredientes_principales": [
+        {"id_producto": "PROD003", "nombre": "Fríjol cargamanto rojo", "presentacion": "Bolsa de 500 g"},
+        {"id_producto": "PROD001", "nombre": "Arroz blanco", "presentacion": "Bolsa de 1 kg"},
+        {"id_producto": "PROD047", "nombre": "Tomate chonto", "presentacion": "A granel, 1 kg"},
+        {"id_producto": "PROD048", "nombre": "Cebolla cabezona blanca", "presentacion": "Bolsa de 1 kg"},
+        {"id_producto": "PROD069", "nombre": "Arepas blancas", "presentacion": "Paquete de 5 unidades (500 g)"}
+      ],
+      "ingrediente_gancho": {
+        "id_producto": "PROD033",
+        "nombre": "Jamón de cerdo",
+        "presentacion": "Paquete de 250 g",
+        "razon": "Picado en cuadros aporta un toque ahumado excelente al plato típico antioqueño."
+      },
+      "preparacion": [
+        "Remojar los fríjoles cargamanto desde la noche anterior y cocinarlos en olla a presión con agua y sal hasta que estén blandos.",
+        "Preparar un arroz blanco tradicional por separado.",
+        "Hacer un buen hogao picando tomate y cebolla finamente y sofríendolos en aceite.",
+        "Si adquiriste el gancho, pica el jamón de cerdo en cubitos pequeños, sófrelo junto con el hogao y agrégaselo a los fríjoles para darles más sabor.",
+        "Servir los fríjoles bien calientes acompañados de su porción de arroz blanco y arepas blancas asadas."
+      ]
+    },
+    {
+      "id_receta": "REC012",
+      "nombre": "Sándwich Caliente de Queso Doble Crema y Tomate",
+      "tiempo_comida": "Desayuno o Cena",
+      "categoria_base": [
+        "Lácteos y derivados",
+        "Verduras y hortalizas",
+        "Panadería y repostería"
+      ],
+      "ingredientes_principales": [
+        {"id_producto": "PROD018", "nombre": "Queso doble crema", "presentacion": "Paquete de 500 g"},
+        {"id_producto": "PROD047", "nombre": "Tomate chonto", "presentacion": "A granel, 1 kg"},
+        {"id_producto": "PROD067", "nombre": "Pan tajado blanco", "presentacion": "Paquete de tajadas (500 g)"},
+        {"id_producto": "PROD020", "nombre": "Mantequilla", "presentacion": "Barra de 250 g"}
+      ],
+      "ingrediente_gancho": {
+        "id_producto": "PROD033",
+        "nombre": "Jamón de cerdo",
+        "presentacion": "Paquete de 250 g",
+        "razon": "Completa el sándwich convirtiéndolo en un clásico de onces o cena rápida."
+      },
+      "preparacion": [
+        "Untar mantequilla por una de las caras de las rebanadas de pan tajado blanco.",
+        "Colocar láminas de queso doble crema y rodajas finas de tomate chonto sobre el pan.",
+        "Si tienes el ingrediente gancho, añade una o dos rodajas de jamón de cerdo para hacerlo más completo.",
+        "Armar el sándwich y llevarlo a un sartén caliente o sandwichera a fuego medio.",
+        "Tostar por ambos lados hasta que el pan esté doradito y el queso se haya derretido por completo."
+      ]
+    }
+  ]
+}
